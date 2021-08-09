@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>JavaScript : Group2</title>
+<script src='http://code.jquery.com/jquery-3.6.0.min.js'></script>
+<script src = 'js/game.js'></script>
+<link rel='stylesheet' href='css/style.css'>
+</head>
+<body>
+	<div id='main'>
+	<h2 id='title'>영타를 치자!</h2>
+	<p id='sco'></p>
+	<p id='tm' class=''></p>
+	<div id='sad' class=''><img src='img/sl02.gif'></div>
+	<div id='awsome' class=''><img src='img/sl03.gif'></div>
+	<br>
+	<div id='ex' class=''><b>시작을 누르세요</b></div>
+	<br>
+	
+	<div id=first class=''>
+	<input type='text' id='txt' onKeyDown='if(event.keyCode ==13){ent()}' class=''>
+	<button onclick='ent()'id='chk' class=''>확인</button>
+	</div>
+	
+	<button onclick='st()' id='stt' class=''>시작</button>
+	<button onclick='next()' id='nxt' class=''>게임 규칙</button>
+	<p id='comment' class=''></p>
+	
+	
+	<div id='info' class=''>
+		<br>
+		<h2>영타를 치자! 게임 규칙을 안내합니다.</h2>
+		<br>
+		<img src='img/sl01.gif'>
+		<br>
+		<ol>
+			<li>제시되는 영단어를 정확히 쳐서 엔터를 누르세요.</li><br>
+			<li>3초 안에 정확히 치면 보너스 점수 1점이 추가됩니다.</li><br>
+			<li>기회는 총 10번이 주어집니다.</li>
+		</ol>	
+	</div>
+	
+	</div>
+</body>
+</html>

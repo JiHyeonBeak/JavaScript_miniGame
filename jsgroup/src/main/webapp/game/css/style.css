@@ -1,0 +1,79 @@
+@charset "UTF-8";
+	* {
+		margin: auto;
+	}
+	#main {
+		text-align:center;
+		margin-top:100px;
+		background: #e0cfe3;
+		width:600px;
+		height:600px;
+	
+	 }
+	 #title {
+	 	padding:15px;
+	 }
+	 
+	#info {
+	 display:none; 
+	 width: 500px;
+	 height:400px;
+	 }
+	
+	#info.active {
+		position:relative;
+		top:10px;
+		display: block;
+		background: #ece4ed;
+	 	border: 3px solid #d8d0d9;
+	 	margin: auto;
+	 	text-align: center;
+	}
+	#awsome {
+		display:none;
+	}
+	
+	#sad {
+		display:none;
+	}
+	
+	#sad.active {
+		display: block;
+	}
+    
+    #awsome.active {
+		display: block;
+	}
+	#first {
+		display: none;
+	}
+	#first.active{
+		display:inline;
+	}
+	#nxt.active {
+		display:none;
+	}
+	#stt.active{
+		display: inline;
+	}
+	#stt{
+		display:none;
+	}
+	#chk.active {
+		display: none;
+	}
+	#tm.active {
+		display: none;
+	}
+	#ex.active{
+		display: none;
+	}
+	#comment {
+		margin-top:20px;
+		text-align: center;
+		color: purple;
+		font-size: 30px;
+		font-family: fantasy;
+		
+	}
+	
